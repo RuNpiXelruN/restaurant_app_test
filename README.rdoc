@@ -1,5 +1,34 @@
 == README
 
+
+testing specs for articles
+name: stringsummary: text
+description: text
+
+- article should be valid first : create @article object
+- name must be present
+- name must be between 5 and 100 characters
+- summary must be present
+- summary must be between 10 and 150 characters
+- description must be present
+- description must be between 20 and 500 characters
+- user_id must be present
+
+testing specs for users
+username:string
+email:string
+
+- user should be valid first : create @user object
+- username must be present
+- username must be between 5 and 40 characters
+- email must be present
+- email must be unique(for logins)
+- email must be valid
+
+
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
